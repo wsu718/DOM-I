@@ -133,3 +133,27 @@ newNavHome.href = "#"
 newNavHome.textContent = "Home";
 navlinks[5].append(newNavHome);
 
+ctabutton.addEventListener('click', (event) => {
+  ctah1.textContent = 'blah'
+  navlinks[0].textContent = 'blah'
+  navlinks[1].textContent = 'blah'
+  navlinks[2].textContent = 'blah'
+  navlinks[3].textContent = 'blah'
+  navlinks[4].textContent = 'blah'
+  navlinks[5].textContent = 'blah'
+  footercopy.textContent = 'blah'
+  contactemail.textContent = 'blah'
+  contactphone.textContent = 'blah'
+  contacth4.textContent = 'blah'
+  visionh4.textContent = 'blah'
+  visioncontent.textContent = 'blah'
+  producth4.textContent = 'blah'
+  productcontent.textContent = 'blah'
+  servicesh4.textContent = 'blah'
+  servicescontent.textContent = 'blah'
+  abouth4.textContent = 'blah'
+  aboutcontent.textContent = 'blah';
+  featuresh4.textContent = 'blah';
+  featurescontent.textContent = 'blah';
+  document.querySelector('body').style.background = 'pink';
+})
